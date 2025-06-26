@@ -1,0 +1,99 @@
+{
+  "com.darmiu.folasia.user.UserState": {
+    "vipEnableAd": { "after": { "result": true } },
+    "vipEnableDownloadFast": { "after": { "result": true } },
+    "vipEnableDownloadHd": { "after": { "result": true } },
+    "vipEnableDownloadParallel": { "after": { "result": true } },
+    "vipEnablePaidVideo": { "after": { "result": true } },
+    "vipEnablePlayHd": { "after": { "result": true } },
+    "vipEnableProjection": { "after": { "result": true } },
+    "vipEnableTV": { "after": { "result": true } },
+    "vipEnableTogetherVoice": { "after": { "result": true } },
+    "isMemberValid": { "after": { "result": true } },
+    "isMemberTimeOut": { "after": { "result": true } }
+  },
+  "com.darmiu.folasia.module_base.beans.UserInfo$UserVipInfo": {
+    "getExpireTime": { "after": { "result": 32503564861000 } },
+    "getStatus": { "after": { "result": 1 } },
+    "getVipLevel": { "after": { "result": 1 } },
+    "getOtherVip": { "after": { "result": true } }
+  },
+  "com.darmiu.folasia.module_base.beans.UserInfo$VipInfoItem": {
+    "getExpireTime": { "after": { "result": 32503564861000 } },
+    "getStatus": { "after": { "result": 1 } },
+    "getVipLevel": { "after": { "result": 1 } }
+  },
+  "com.darmiu.folasia.module_base.beans.UserInfo": {
+    "getNickName": { "after": { "result": "D4RK\u2122SYSTEM" } },
+    "getBio": { "after": { "result": "im not hacker-" } },
+    "getHeadImgUrl": { "after": { "result": "https://pastebin.com/cache/img/21/8/9/11336912.jpg" } }
+  },
+  "com.darmiu.folasia.module_me.bean.VIPInfoBean": {
+    "getExpireTime": { "after": { "result": 32503564861000 } },
+    "getStatus": { "after": { "result": 1 } },
+    "getVipLevelId": { "after": { "result": 1 } }
+  },
+  "com.darmiu.folasia.net.response.UserRightsConfig": {
+    "getVipLevelId": { "after": { "result": 1 } }
+  },
+  "com.darmiu.folasia.module_base.beans.UserInfo$OldUserVipInfo": {
+    "getExpireTime": { "after": { "result": 32503564861000 } },
+    "getStatus": { "after": { "result": 1 } },
+    "getVipLevelId": { "after": { "result": 1 } },
+    "getVipName": { "after": { "result": "gold" } },
+    "getOtherVip": { "after": { "result": true } }
+  },
+  "com.darmiu.folasia.module_base.beans.InviteRegisterAwardBean": {
+    "getGoldFish": { "after": { "result": 1 } },
+    "getInviteStatus": { "after": { "result": 1 } },
+    "getVip": { "after": { "result": 1 } },
+    "getTicket": { "after": { "result": 1 } }
+  },
+  "com.darmiu.folasia.module_vip.utils.VipUtilsKt": {
+    "getRealVipStatus": {
+      "paramTypes": ["java.lang.Integer", "java.lang.Long"],
+      "after": { "result": 1 }
+    }
+  },
+  "com.darmiu.folasia.module_base.beans.video.EpisodeVo": {
+    "getPaidMode": { "after": { "result": 0 } },
+    "getBuyMode": { "after": { "result": 0 } },
+    "getBusinessType": { "after": { "result": 0 } },
+    "getAutoUnlock": { "after": { "result": true } }
+  },
+  "com.darmiu.folasia.net.response.CheckVideoPermissionResponse": {
+    "getPaidMode": { "after": { "result": 0 } }
+  },
+  "com.darmiu.folasia.net.request.UnlockPaidVideoRequest": {
+    "getBuyMode": { "after": { "result": 0 } },
+    "getPaidType": { "after": { "result": 0 } }
+  },
+  "com.darmiu.folasia.module_home.home.model.RecommendContentVO": {
+    "getAd": { "after": { "result": false } },
+    "isAdShowed": { "after": { "result": false } },
+    "getShowMark": { "after": { "result": false } }
+  },
+  "com.darmiu.folasia.module_vip.bean.VipGoodsBean": {
+    "getCanManageSub": { "after": { "result": true } },
+    "getInit": { "after": { "result": true } }
+  },
+  "com.darmiu.folasia.module_base.beans.UserInfo$UserGradeInfo": {
+    "getLevel": { "after": { "result": 1 } }
+  },
+  "com.darmiu.folasia.module_base.beans.VIPType": {
+    "getValue": { "after": { "result": 1 } }
+  },
+  "com.darmiu.folasia.module_home.HomeActivityNew": {
+    "onCreate": {
+      "paramTypes": ["android.os.Bundle"],
+      "after": {
+        "callMethod": {
+          "class": "com.dark.mydialogs.DarkSystemDialog",
+          "method": "showDialog",
+          "paramTypes": ["android.content.Context"],
+          "params": ["this"]
+        }
+      }
+    }
+  }
+}
